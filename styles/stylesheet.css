@@ -1,0 +1,36 @@
+body 
+{    
+    background-image: url("https://i.pinimg.com/originals/da/25/fd/da25fd56a45f2e54f782aeffb2f57e9a.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+.jumbotron
+{
+    border-radius: 35px;
+}
+.navbar
+{
+    border-radius: 35px;
+    background-color: aquamarine;
+}
+.btn
+{
+    border-radius: 35px;
+}
+.card
+{
+    border-radius: 35px;  
+}
+.form-control
+{
+    border-radius: 35px;  
+}
+.custom-select
+{
+    border-radius: 35px;  
+}
+.rdn,.alert-primary{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}

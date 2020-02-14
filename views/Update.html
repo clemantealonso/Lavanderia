@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <script src="./../components/Update.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container text-center">
+        <p class="center">
+            <nav id="NavBar" class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+        </p>
+        <div class="center card">
+            <div class="card-header">
+                <h2 >Actualizar Registro</h2>
+                <br>
+                <select class="custom-select" name="Registro" id="Registro"></select>
+            </div>
+            <form class="card-body" id="form">
+                <div class="row">
+                    <div class="col-4 text-right text-primary">Fecha de Entrega: </div>
+                    <div class="col-8">
+                        <input name="Entrega" id="Entrega" class="form-control" type="date" required/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4 text-right text-primary">Cliente: </div>
+                    <div class="col-8">
+                        <input name="Cliente" id="Cliente" class="form-control" type="text" required/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4 text-right text-primary">Kilos de Ropa: </div>
+                    <div class="col-8">
+                       <input name="Kg" id="Kg" class="form-control" type="number" step="0.01" required/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4 text-right text-primary">Importe ($): </div>
+                    <div class="col-8">
+                        <input name="Importe" id="Importe" class="form-control" type="number" step="0.01" required/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-4 text-right text-primary">Observaciones: </div>
+                    <div class="col-8">
+                        <textarea name="Observaciones" id="Observaciones" class="form-control" maxlength="400" cols="30" rows="7"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col text-right">
+                      <button type="submit" class="btn btn-warning">Actualizar</button>
+                    </div>
+               </div>
+            </form>
+            <div class="card-footer">
+                <div id="answer"></div>
+           </div>
+        </div>
+    </div>   
+</body>
+</html>
